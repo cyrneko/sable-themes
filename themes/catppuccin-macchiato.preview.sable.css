@@ -1,0 +1,21 @@
+﻿/*
+@sable-theme
+id: catppuccin-macchiato
+name: Catppuccin Macchiato
+author: Catppuccin / Shea
+kind: dark
+contrast: low
+tags: dark, catppuccin, blue, purple
+fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/themes/catppuccin-macchiato.sable.css
+*/
+
+.sable-theme-preview {
+  --sable-bg-container: #1e2030;
+  --sable-bg-on-container: #cad3f5;
+  --sable-surface-container: #24273a;
+  --sable-surface-container-line: #5b6078;
+  --sable-surface-on-container: #cad3f5;
+  --sable-primary-main: #c6a0f6;
+  --sable-primary-on-main: #24273a;
+}
+

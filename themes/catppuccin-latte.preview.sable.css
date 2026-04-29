@@ -1,0 +1,21 @@
+﻿/*
+@sable-theme
+id: catppuccin-latte
+name: Catppuccin Latte
+author: Catppuccin / Shea
+kind: light
+contrast: low
+tags: light, catppuccin, blue, purple
+fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/themes/catppuccin-latte.sable.css
+*/
+
+.sable-theme-preview {
+  --sable-bg-container: #e6e9ef;
+  --sable-bg-on-container: #4c4f69;
+  --sable-surface-container: #eff1f5;
+  --sable-surface-container-line: #acb0be;
+  --sable-surface-on-container: #4c4f69;
+  --sable-primary-main: #8839ef;
+  --sable-primary-on-main: #eff1f5;
+}
+

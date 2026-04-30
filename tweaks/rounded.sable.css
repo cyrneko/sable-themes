@@ -8,6 +8,7 @@ tags: demo, layout, avatar
 */
 
 body.sable-remote-theme span[class*='layout_AvatarBase'] > *,
+body.sable-remote-theme [class*='UserHeroAvatar'],
 body.sable-remote-theme [class*='UserAvatar'] {
   border-radius: 50%;
   overflow: hidden;

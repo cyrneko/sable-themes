@@ -1,0 +1,20 @@
+/*
+@sable-theme
+id: cinny-butter
+name: Cinny Butter
+author: Cinny
+kind: dark
+contrast: low
+tags: dark, butter, cinny
+fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/themes/cinny-butter.sable.css
+*/
+
+.sable-theme-preview {
+  --sable-bg-container: #1A1916;
+  --sable-bg-on-container: #FFFBDE;
+  --sable-surface-container: #262621;
+  --sable-surface-container-line: #4D4B43;
+  --sable-surface-on-container: #FFFBDE;
+  --sable-primary-main: #bdb6ec;
+  --sable-primary-on-main: #2c2843;
+}

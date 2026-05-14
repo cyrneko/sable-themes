@@ -96,6 +96,10 @@
   ],
   "tweaks": [
     {
+      "basename": "calm-buttons",
+      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/tweaks/calm-buttons.sable.css"
+    },
+    {
       "basename": "grayscale-avatars",
       "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/tweaks/grayscale-avatars.sable.css"
     },

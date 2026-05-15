@@ -15,3 +15,7 @@ body.sable-remote-theme [class*='Sidebar__'] {
 #root > div:nth-child(3) {
     flex-direction: row-reverse;
 }
+
+#root > div:nth-child(4) {
+    flex-direction: row-reverse;
+}

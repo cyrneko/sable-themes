@@ -9,6 +9,11 @@
       "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/accord.sable.css"
     },
     {
+      "basename": "amethyst",
+      "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/amethyst.preview.sable.css",
+      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/amethyst.sable.css"
+    },
+    {
       "basename": "black",
       "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/black.preview.sable.css",
       "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/black.sable.css"

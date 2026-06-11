@@ -24,7 +24,7 @@ body.sable-remote-theme {
   --sable-bg-container-hover: hsl(205, 33.14%, 16.14%);
   --sable-bg-container-active: hsl(206, 31.56%, 19.49%);
   --sable-bg-container-line: hsl(206, 22.09%, 20.58%);
-  --sable-bg-on-container: hsl(203, 65%, 85%);
+  --sable-bg-on-container: hsl(203, 70%, 75%);
 
   /* --- Surface --- */
   --sable-surface-container: hsl(205, 33.14%, 16.14%);
@@ -130,10 +130,10 @@ body.sable-remote-theme button[class*="Sidebar_SidebarAvatar"]::before {
   transition: transform 2.3s ease-out;
   z-index: -1;
 }
-
+/* The Base Color */
 body.sable-remote-theme button[class*="Sidebar_SidebarAvatar"] {
   position: relative;
-  background-color: hsl(209, 47.34%, 14.08%);
+  background-color: hsl(209, 37.34%, 12.5%);
   overflow: hidden;
   transition: background-color 0.3s ease;
 }

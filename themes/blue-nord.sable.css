@@ -12,8 +12,8 @@ fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/themes/b
 body.sable-remote-theme {
   /* Background */
   --sable-bg-container: hsl(210, 25%, 20.4%);
-  --sable-bg-container-hover: hsl(210, 25%, 22.44%);
-  --sable-bg-container-active: hsl(210, 25%, 24.48%);
+  --sable-bg-container-hover: hsl(210, 25%, 24.44%);
+  --sable-bg-container-active: hsl(210, 25%, 27.48%);
   --sable-bg-container-line: hsl(210, 25%, 26.52%);
   --sable-bg-on-container: hsl(210, 12.5%, 85%);
 
@@ -32,16 +32,16 @@ body.sable-remote-theme {
   --sable-surface-var-on-container: hsl(210, 25%, 100%);
 
   /* Primary */
-  --sable-primary-main: hsl(210, 25%, 34%);
-  --sable-primary-main-hover: hsl(210, 25%, 37.4%);
-  --sable-primary-main-active: hsl(210, 25%, 40.8%);
-  --sable-primary-main-line: hsl(210, 25%, 44.2%);
-  --sable-primary-on-main: hsl(210, 12.5%, 85%);
-  --sable-primary-container: hsl(210, 20%, 68%);
-  --sable-primary-container-hover: hsl(210, 20%, 48.62%);
-  --sable-primary-container-active: hsl(210, 20%, 53.04%);
-  --sable-primary-container-line: hsl(210, 20%, 57.46%);
-  --sable-primary-on-container: hsl(210, 25%, 20.4%);
+  --sable-primary-main: hsl(210, 89.95%, 84.47%);
+  --sable-primary-main-hover: hsl(210, 77.32%, 78.19%);
+  --sable-primary-main-active: hsl(210, 69.43%, 71.80%);
+  --sable-primary-main-line: hsl(210, 64.70%, 65.41%);
+  --sable-primary-on-main: hsl(210, 34.72%, 12.56%);
+  --sable-primary-container: hsl(210, 27.87%, 38%);
+  --sable-primary-container-hover: hsl(210, 25%, 26.18%);
+  --sable-primary-container-active: hsl(210, 33.14%, 34.01%);
+  --sable-primary-container-line: hsl(210, 33.14%, 50.18%);
+  --sable-primary-on-container: hsl(210, 78.9%, 98.99%);
 
   /* Secondary */
   --sable-sec-main: hsl(40, 35%, 64%);

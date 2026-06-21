@@ -120,13 +120,13 @@ body.sable-remote-theme {
 
 /* Left Panel Buttons Shadow */
 body.sable-remote-theme button[class*="Sidebar_SidebarAvatar"]:hover {
-  box-shadow: 0 0 9px 1px hsla(270, 100%, 75%, 0.65); /* 0 0 10px 1px hsla(270, 100%, 70%, 0.6); */
+  box-shadow: 0 0 9px 1px hsla(270, 100%, 75%, 0.65);
   transition: box-shadow 0.2s ease;
 }
 
   /* Text Box Shadow */
 *:focus-visible {
-  box-shadow: 0 10px 15px -10px hsla(270, 50%, 50%, 0.6); /* h offset, v off, blur, spread */
+  box-shadow: 0 10px 15px -10px hsla(270, 50%, 50%, 0.6);
   outline: none;
 }
 

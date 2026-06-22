@@ -77,11 +77,11 @@ body.sable-remote-theme {
   --sable-sec-on-container: hsla(270, 50%, 96%, var(--hard-alpha));
 
   /* Success */
-  --sable-success-main: hsla(130, 46%, 73%, var(--hard-alpha));
-  --sable-success-main-hover: hsla(130, 46%, 80.3%, var(--hard-alpha));
-  --sable-success-main-active: hsla(130, 46%, 87.6%, var(--hard-alpha));
-  --sable-success-main-line: hsla(130, 46%, 94.9%, var(--hard-alpha));
-  --sable-success-on-main: hsla(130, 23%, 14.6%, var(--hard-alpha));
+  --sable-success-main: hsla(271, 46%, 73%, var(--hard-alpha));
+  --sable-success-main-hover: hsla(271, 46%, 80.3%, var(--hard-alpha));
+  --sable-success-main-active: hsla(271, 46%, 87.6%, var(--hard-alpha));
+  --sable-success-main-line: hsla(271, 46%, 94.9%, var(--hard-alpha));
+  --sable-success-on-main: hsla(271, 23%, 14.6%, var(--hard-alpha));
   --sable-success-container: hsla(271, 27.6%, 21.9%, var(--hard-alpha));
   --sable-success-container-hover: hsla(271, 27.6%, 24.09%, var(--hard-alpha));
   --sable-success-container-active: hsla(271, 27.6%, 26.28%, var(--hard-alpha));

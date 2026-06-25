@@ -104,9 +104,24 @@
       "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/neon-city.sable.css"
     },
     {
+      "basename": "neon-city-blue",
+      "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/neon-city-blue.preview.sable.css",
+      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/neon-city-blue.sable.css"
+    },
+    {
+      "basename": "neon-city-green",
+      "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/neon-city-green.preview.sable.css",
+      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/neon-city-green.sable.css"
+    },
+    {
       "basename": "neon-city-light",
       "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/neon-city-light.preview.sable.css",
       "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/neon-city-light.sable.css"
+    },
+    {
+      "basename": "neon-city-red",
+      "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/neon-city-red.preview.sable.css",
+      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/neon-city-red.sable.css"
     },
     {
       "basename": "rose-pine",

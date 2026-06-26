@@ -69,16 +69,16 @@ body.sable-remote-theme {
   --sable-sec-on-container: hsl(230, 50%, 96%);
 
   /* Success */
-  --sable-success-main: hsl(270, 46%, 73%);
-  --sable-success-main-hover: hsl(270, 46%, 80.3%);
-  --sable-success-main-active: hsl(270, 46%, 87.6%);
-  --sable-success-main-line: hsl(270, 46%, 94.9%);
-  --sable-success-on-main: hsl(270, 23%, 14.6%);
-  --sable-success-container: hsl(270, 27.6%, 21.9%);
-  --sable-success-container-hover: hsl(270, 27.6%, 24.09%);
-  --sable-success-container-active: hsl(270, 27.6%, 26.28%);
-  --sable-success-container-line: hsl(270, 27.6%, 28.47%);
-  --sable-success-on-container: hsl(270, 46%, 87.6%);
+  --sable-success-main: hsl(345, 46%, 73%);
+  --sable-success-main-hover: hsl(345, 46%, 80.3%);
+  --sable-success-main-active: hsl(345, 46%, 87.6%);
+  --sable-success-main-line: hsl(345, 46%, 94.9%);
+  --sable-success-on-main: hsl(345, 23%, 14.6%);
+  --sable-success-container: hsl(345, 27.6%, 21.9%);
+  --sable-success-container-hover: hsl(345, 27.6%, 24.09%);
+  --sable-success-container-active: hsl(345, 27.6%, 26.28%);
+  --sable-success-container-line: hsl(345, 27.6%, 28.47%);
+  --sable-success-on-container: hsl(345, 46%, 87.6%);
 
   /* Warning */
   --sable-warn-main: hsl(0, 100%, 100%);

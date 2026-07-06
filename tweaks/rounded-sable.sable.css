@@ -4,7 +4,7 @@ id: rounded-sable
 name: Rounded Sable
 description: Smooth round shapes with a higher border radius.
 author: userspring
-tags: global, radius, circle
+tags: global, circular
 */
 
 /* Base Rounding */
@@ -65,6 +65,7 @@ body.sable-remote-theme div [class*="CustomHtml"] {
 body.sable-remote-theme button [class*="prxiv40 _1mqalmd1 _1mqalmd0 prxiv41"]  {
   border-radius: 16px !important;
 }
+body.sable-remote-theme [class*="AutocompleteMenu"] img,
 body.sable-remote-theme [class*="Reaction_ReactionImg"] {
   border-radius: 3.2px !important;
 }

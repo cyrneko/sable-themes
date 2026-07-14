@@ -32,7 +32,7 @@ body.sable-remote-theme :is(.layout_MessageTextBody_jumboEmoji_none__1r9nvas1b,
 }
 
 body.sable-remote-theme {
-  font-family: 'Intel One Mono', monospace, 'Twemoji', system-ui, -apple-system, sans-serif;
+ --font-secondary: 'Intel One Mono', monospace, 'Twemoji', system-ui, -apple-system, sans-serif;
 
   /* Background */
   --sable-bg-container: hsl(0, 0%, 0%);

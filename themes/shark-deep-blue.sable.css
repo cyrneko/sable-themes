@@ -45,7 +45,7 @@ fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/themes/s
 }
 
 body.sable-remote-theme {
-  font-family: 'Rajdhani', 'Twemoji', 'Nunito Variable', system-ui, -apple-system, sans-serif;
+  --font-secondary: 'Rajdhani', 'Twemoji', 'Nunito Variable', system-ui, -apple-system, sans-serif;
 
   /* --- Background --- */
   --sable-bg-container: hsl(207, 34.72%, 12.56%);

@@ -1,0 +1,172 @@
+/*
+@sable-theme
+id: matrix-terminal
+name: Matrix Terminal
+author: userspring
+kind: dark
+contrast: high
+tags: oled, green, black · recommended tweaks: square-everything, crt
+fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/themes/matrix-terminal.sable.css
+*/
+
+@font-face {
+  font-family: 'Intel One Mono';
+  font-weight: 300 700;
+  font-style: normal;
+  src: url('https://raw.githubusercontent.com/SableClient/themes/main/fonts/Intel_One_Mono/IntelOneMono-Variable.ttf') format('truetype-variations');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Intel One Mono';
+  font-weight: 300 700;
+  font-style: italic;
+  src: url('https://raw.githubusercontent.com/SableClient/themes/main/fonts/Intel_One_Mono/IntelOneMono-Italic-Variable.ttf') format('truetype-variations');
+  font-display: swap;
+}
+
+body.sable-remote-theme :is(.layout_MessageTextBody_jumboEmoji_none__1r9nvas1b, 
+[class*="CustomHtml_Paragraph__1t9vo331"]) {
+    font-size: 0.95rem !important;
+    line-height: 1.4;
+}
+
+body.sable-remote-theme {
+ --font-secondary: 'Intel One Mono', monospace, 'Twemoji', system-ui, -apple-system, sans-serif;
+
+  /* Background */
+  --sable-bg-container: hsl(0, 0%, 0%);
+  --sable-bg-container-hover: hsl(120, 80%, 6.3%);
+  --sable-bg-container-active: hsl(120, 100%, 6.3%);
+  --sable-bg-container-line: hsl(120, 71.4%, 30%);
+  --sable-bg-on-container: hsl(120, 80%, 65%);
+
+  /* Surface */
+  --sable-surface-container: hsl(0, 0%, 0%);
+  --sable-surface-container-hover: hsl(120, 80%, 6.3%);
+  --sable-surface-container-active: hsl(120, 100%, 6.3%);
+  --sable-surface-container-line: hsl(120, 71.4%, 28.2%);
+  --sable-surface-on-container: hsl(120, 80%, 100%);
+
+  /* Surface Variant */
+  --sable-surface-var-container: hsl(120, 80%, 5%);
+  --sable-surface-var-container-hover: hsl(120, 80%, 15%);
+  --sable-surface-var-container-active: hsl(120, 80%, 8%);
+  --sable-surface-var-container-line: hsl(120, 100%, 65%);
+  --sable-surface-var-on-container: hsl(120, 80%, 70%);
+  
+  /* Primary */
+  --sable-primary-main: hsl(120, 22.9%, 82%);
+  --sable-primary-main-hover: hsl(120, 30%, 76.7%);
+  --sable-primary-main-active: hsl(120, 37.9%, 71.2%);
+  --sable-primary-main-line: hsl(120, 46.3%, 65.7%);
+  --sable-primary-on-main: hsl(120, 21.2%, 11.6%);
+  --sable-primary-container: hsl(120, 80%, 12%);
+  --sable-primary-container-hover: hsl(120, 80%, 8%);
+  --sable-primary-container-active: hsl(120, 58.3%, 36.7%);
+  --sable-primary-container-line: hsl(120, 57.2%, 42.5%);
+  --sable-primary-on-container: hsl(120, 0%, 92.5%);
+  
+  /* Secondary */
+  --sable-sec-main: hsl(120, 15.1%, 62.4%);
+  --sable-sec-main-hover: hsl(120, 11.8%, 68.6%);
+  --sable-sec-main-active: hsl(120, 9%, 74.9%);
+  --sable-sec-main-line: hsl(120, 6.5%, 81.2%);
+  --sable-sec-on-main: hsl(0, 0%, 0%);
+  --sable-sec-container: hsl(120, 0%, 0%);
+  --sable-sec-container-hover: hsl(120, 80%, 12.5%);
+  --sable-sec-container-active: hsl(120, 80%, 12.5%);
+  --sable-sec-container-line: hsl(120, 100%, 25.1%);
+  --sable-sec-on-container: hsl(120, 80%, 92.5%);
+  
+  /* Success */
+  --sable-success-main: hsl(120, 80%, 60%);
+  --sable-success-main-hover: hsl(120, 80%, 65%);
+  --sable-success-main-active: hsl(120, 80%, 65%);
+  --sable-success-main-line: hsl(120, 80%, 65%);
+  --sable-success-on-main: hsl(120, 80%, 14.9%);
+  --sable-success-container: hsl(300, 80%, 22.5%);
+  --sable-success-container-hover: hsl(300, 80%, 25.1%);
+  --sable-success-container-active: hsl(300, 80%, 27.5%);
+  --sable-success-container-line: hsl(300, 80%, 30%);
+  --sable-success-on-container: hsl(300, 80%, 87.5%);
+ 
+  /* Warning */
+  --sable-warn-main: hsl(300, 80%, 72.9%);
+  --sable-warn-main-hover: hsl(300, 80%, 68.4%);
+  --sable-warn-main-active: hsl(300, 80%, 66.3%);
+  --sable-warn-main-line: hsl(300, 80%, 63.9%);
+  --sable-warn-on-main: hsl(300, 80%, 16.5%);
+  --sable-warn-container: hsl(120, 80%, 15%);
+  --sable-warn-container-hover: hsl(120, 80%, 18%);
+  --sable-warn-container-active: hsl(120, 80%, 30.2%);
+  --sable-warn-container-line: hsl(120, 80%, 55%);
+  --sable-warn-on-container: hsl(120, 80%, 88.6%);
+ 
+  /* Critical */
+  --sable-crit-main: hsl(300, 80%, 75.9%);
+  --sable-crit-main-hover: hsl(300, 80%, 72%);
+  --sable-crit-main-active: hsl(300, 80%, 70%);
+  --sable-crit-main-line: hsl(300, 80%, 68%);
+  --sable-crit-on-main: hsl(300, 80%, 18%);
+  --sable-crit-container: hsl(300, 80%, 26.9%);
+  --sable-crit-container-hover: hsl(300, 80%, 17.3%);
+  --sable-crit-container-active: hsl(300, 80%, 33.1%);
+  --sable-crit-container-line: hsl(300, 80%, 35.9%);
+  --sable-crit-on-container: hsl(300, 80%, 65%);
+ 
+  /* Other */
+  --sable-focus-ring: hsla(120, 80%, 65%, 0.8);
+  --sable-shadow: hsla(120, 80%, 25%, 0.6);
+  --sable-overlay: hsla(120, 55%, 2%, 0.9);
+}
+
+/* Buttons Shadow */
+body.sable-remote-theme button[class*="Sidebar_SidebarAvatar"]:hover {
+  box-shadow: 0 0 5px 1px hsla(120, 100%, 65%, 0.65);
+  transition: box-shadow 0.2s ease;
+}
+
+/* Light Bleed */
+body.sable-remote-theme,
+body.sable-remote-theme button * {
+text-shadow: 0.5px 0 2.8px #00ff00,
+-1.5px 0 2px #6d1919;
+}
+body.sable-remote-theme [class*="Reaction_ReactionText__1ofy2966"] * {
+min-width: 17px !important;
+}
+body.sable-remote-theme [class*="_1fptcza0 _1mqalmd1 _1mqalmd0 _1fptcza2"] *,
+body.sable-remote-theme [class*="_13qe89m6 _1mqalmd1 _1mqalmd0 _1bugis90 _1bugis91"] *,
+body.sable-remote-theme [class="prxiv40 _1mqalmd1 _1mqalmd0 prxiv41 prxiv44 prxiv4a prxiv41k"],
+body.sable-remote-theme [class="_1xny9xl0 _1mqalmd1 _1mqalmd0 _1xny9xle _1xny9xlr _1xny9xln"],
+body.sable-remote-theme [class="prxiv40 _1mqalmd1 _1mqalmd0 prxiv41 styles_AvatarPresence__1meaq7c0"] *,
+body.sable-remote-theme [class*="epr39zd _1mqalmd1 _1mqalmd0 _1bugis90 _1bugis91 epr39zf"] * {
+text-shadow: 0.5px 0 2.8px #00ff00;
+}
+body.sable-remote-theme [class="epr39zd _1mqalmd1 _1mqalmd0 _1bugis90 _1bugis91 epr39ze epr39zl epr39zn cpipac2"],
+body.sable-remote-theme [class="epr39zd _1mqalmd1 _1mqalmd0 _1bugis90 _1bugis91 epr39ze epr39zl epr39zo cpipac5"] *,
+body.sable-remote-theme [class="_1xny9xl0 _1mqalmd1 _1mqalmd0 _1xny9xlb _1xny9xlr"],
+body.sable-remote-theme [class="_1xny9xl0 _1mqalmd1 _1mqalmd0 _1xny9xlg _1xny9xlr"],
+body.sable-remote-theme [class="_13tt0gb6 _1mqalmd1 _1mqalmd0 _1bugis90 _1bugis91 _13tt0gbe _13tt0gbg _13tt0gbh cpipac2"] *,
+body.sable-remote-theme [class*="layout_MessageTextBody__1r9nvas19"] {
+text-shadow: 0 0 2.8px #868686;
+}
+
+  /* Text Box Bracket */
+body.sable-remote-theme [class="prxiv40 _1mqalmd1 _1mqalmd0 prxiv41 prxiv46 prxiv41t"] 
+.Editor_Editor__1a1o97c0 *:focus-visible::after {
+  content: '';
+  position: absolute;
+  bottom: 3%;
+  right: 2%;
+  width: 10px;     
+  height: 20px;    
+  background-color: #00ff00;
+  box-shadow: 0 0 10px #00ff00;
+  animation: flicker 1s step-end infinite;
+}
+@keyframes flicker {
+  0%, 100% { opacity: 1; }
+  50%      { opacity: 0; }
+}

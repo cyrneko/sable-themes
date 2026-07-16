@@ -20,7 +20,7 @@ fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/themes/m
 body.sable-remote-theme :is(.layout_MessageTextBody_jumboEmoji_none__1r9nvas1b, 
 [class*="CustomHtml_Paragraph__1t9vo331"], [class="layout_Username__1r9nvas16"] *,
 .Editor_Editor__1a1o97c0 *:not([class*="CustomHtml_EmoticonBase__1t9vo33q"] *)) {
-    --custom-font-size1: 17px;
+    --custom-font-size1: 1.07rem;
     --custom-line-height: 1.3;
     font-size: var(--custom-font-size1) !important;
     line-height: var(--custom-line-height);
@@ -29,7 +29,7 @@ body.sable-remote-theme *:not([data-sentry-source-file="EmojiBoard.tsx"] *,
 [class*="layout_MessageTextBody_jumboEmoji"] *, [class*="CustomHtml_EmoticonBase__1t9vo33q"] *, 
 [class="prxiv40 _1mqalmd1 _1mqalmd0 prxiv41 prxiv44 prxiv4i prxiv41b prxiv41l prxiv41s"] *, 
 [class="prxiv40 _1mqalmd1 _1mqalmd0 prxiv41 prxiv4i prxiv41a prxiv41l prxiv41s"] *) {
-    --custom-font-size2: 16px;
+    --custom-font-size2: 0.95rem;
     font-size: var(--custom-font-size2);
 }
 

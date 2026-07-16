@@ -13,7 +13,28 @@ fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/themes/m
   font-family: 'Terminus';
   font-weight: 'normal';
   font-style: normal;
-  src: url('https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/terminus/Terminus.ttf') format('truetype');
+  src: url('https://raw.githubusercontent.com/SableClient/themes/main/fonts/Terminus/Terminus.ttf') format('truetype');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Terminus';
+  font-weight: 'normal';
+  font-style: italic;
+  src: url('https://raw.githubusercontent.com/SableClient/themes/main/fonts/Terminus/Terminus-Italic.ttf') format('truetype');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Terminus';
+  font-weight: 'bold';
+  font-style: normal;
+  src: url('https://raw.githubusercontent.com/SableClient/themes/main/fonts/Terminus/Terminus-Bold.ttf') format('truetype');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Terminus';
+  font-weight: 'bold';
+  font-style: italic;
+  src: url('https://raw.githubusercontent.com/SableClient/themes/main/fonts/Terminus/Terminus-Bold-Italic.ttf') format('truetype');
   font-display: swap;
 }
 body.sable-remote-theme :is(.layout_MessageTextBody_jumboEmoji_none__1r9nvas1b, 
@@ -28,7 +49,7 @@ body.sable-remote-theme *:not([data-sentry-source-file="EmojiBoard.tsx"] *,
 [class*="layout_MessageTextBody_jumboEmoji"] *, [class*="CustomHtml_EmoticonBase__1t9vo33q"] *, 
 [class="prxiv40 _1mqalmd1 _1mqalmd0 prxiv41 prxiv44 prxiv4i prxiv41b prxiv41l prxiv41s"] *, 
 [class="prxiv40 _1mqalmd1 _1mqalmd0 prxiv41 prxiv4i prxiv41a prxiv41l prxiv41s"] *) {
-    --custom-font-size2: 0.95rem, initial;
+    --custom-font-size2: 0.95rem;
     font-size: var(--custom-font-size2);
 }
 
@@ -131,7 +152,8 @@ body.sable-remote-theme button:not([class*="Reply_Reply__1ew384n2"], [class*="Ro
 /* Light Bleed */
 body.sable-remote-theme,
 body.sable-remote-theme button * {
-text-shadow: -1.5px 0 2px rgba(255, 255, 255, 0.25);
+--custom-text-shadow1: -1.5px 0 2px rgba(255, 255, 255, 0.25);
+text-shadow: var(--custom-text-shadow1);
 }
 body.sable-remote-theme [class*="_1fptcza0 _1mqalmd1 _1mqalmd0 _1fptcza2"] *,
 body.sable-remote-theme [class*="_13qe89m6 _1mqalmd1 _1mqalmd0 _1bugis90 _1bugis91"] *,
